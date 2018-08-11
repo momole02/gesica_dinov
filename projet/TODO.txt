@@ -1,0 +1,30 @@
+ A faire : 
+
+PRIORITE 2 : 
+ - Securiser les sessions : eviter de travailler avec le code , péférer utiliser un code hashé
+ 	car n'importe qui ayant accès aux sessions peut modifier le code de l'entreprise pour en gérer une autre. 
+ 	Suggestion  :créer un autre champ 'code_nohash_ent' qui contient le vrai code et utiliser code_ent pour stocker 
+ 	le code chiffré.
+
+ - S'assurer que les variables post sont bien traités( trimmés, .... ).
+ - Faire une validation des formulaires niveau client.
+ - l'utiliser l'AJAX pour le traitement de certaines opérations.
+ - Utiliser les popups en guise de boite de dialogue pour certains traitements
+ - Penser à trouver un compilateur binaire pour PHP afin de mieux gérer la version localhost. 
+ 
+PRIORITE 1 : 
+
+- Etats de sorties : 
+		liste des opérations
+		liste des opérations de caisse
+		liste des articles
+		facture des ventes
+		informations sur l'entreprise
+
+TRAVAIL RESTANT : 
+
+- Gestion des opérations(ventes, ouverture - fermeture de caisses , ajout - suppression - modification - ravitaillement d'articles).
+- Editer les vues corriger les fautes, retirer les choses inutiles sur les pages.
+- 
+
+
